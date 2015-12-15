@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">GPS Permission Test</string>
-    <string name="btnGrantGPS">Grant GPS</string>
+    <string name="btnGrantGPS">位置情報の取得を許可</string>
 </resources>

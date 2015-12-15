@@ -11,15 +11,20 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <TextView android:text="Latitude has not fetched" android:layout_width="wrap_content"
+        <TextView android:text="緯度未取得" android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tvLatitude"
             android:textSize="12pt" />
 
-        <TextView android:text="Longitude has not fetched" android:layout_width="wrap_content"
+        <TextView android:text="経度未取得" android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/tvLongitude"
             android:textSize="12pt" />
+
+        <TextView android:text="位置情報の取得はまだ許可されていません" android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvFineLocationPermissionState"
+            android:textSize="10pt" />
 
         <Button
             android:layout_width="wrap_content"
